@@ -1,3 +1,9 @@
+@media all and (max-width: 699px) { /* max-width would be the breakpoint for when this style kicks in */
+    body {
+      background-size: cover; /* stretches to size of viewport */
+      background-position: center; /* center the bg image */
+    }
+  }
 *{
     font-family: 'Fruktur',sans-serif;
     margin: 0;
